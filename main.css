@@ -17,11 +17,12 @@ header {
 nav a{
   font-weight: 600;
   letter-spacing: 0.047em;
-  padding: 0.188em 3.75em;
-  border-bottom: none;
+/*  padding: 0.188em 3.75em;
+*/  border-bottom: none;
   text-transform: uppercase;
   text-decoration: none;
-  padding-left: 10em;
+  padding-left: 6em;
+  padding-right: 5.7em;
   font-size: 1;
 }
 
@@ -248,6 +249,7 @@ input {
   body {
     padding:0;
   }
+
   #header-background {
     max-width: 100%;
     margin-top: 0;
