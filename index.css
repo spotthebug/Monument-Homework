@@ -103,6 +103,21 @@ p {
   margin-right: 1em;
 }
 
+#col-1 p {
+  height: 15em;
+  overflow: auto;
+}
+
+#col-2 p {
+  height: 15em;
+  overflow: auto;
+}
+
+#col-3 p {
+  height: 15em;
+  overflow: auto;
+}
+
 #col-2 {
   float: left;
   width: 31.8%;
@@ -122,11 +137,6 @@ p {
    clear: both;
 }
 
-# .limit-text {
-#   text-overflow: ellipsis;
-#   white-space: nowrap;
-#   overflow: visible;
-# }
 
 #second-section {
   padding: 0em 5em;
@@ -162,6 +172,10 @@ h3 {
 .image {
   width: 100%;
   height: auto;
+}
+
+.image:hover {
+  opacity: 0.6;
 }
 
 #web-adjust h2 {
@@ -293,6 +307,13 @@ input {
   color: #004d4d;
   text-align: center;
   width: 100%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+#five:hover {
+  background-color: #595959;
+  color: white;
 }
 
 .comment {
@@ -547,13 +568,6 @@ input {
   #three {
     width: 100%;
   }
-
-  #five {
-  background-color: #595959;
-  color: white;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-}
 
   #email {
   width: 70%;
