@@ -15,13 +15,13 @@ nav {
 
 nav a{
   font-weight: 600;
-  # letter-spacing: 0.047em;
   padding: 0.188em 3.75em;
   border-bottom: none;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10em;
   font-size: 1;
+  font-family: 'Raleway', sans-serif;
 }
 
 nav a:hover {
@@ -81,8 +81,18 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+}
+
+
 .items {
-  color: #004d4d;
+  color: #003333;
 }
 
 .image-size {
@@ -92,6 +102,7 @@ h2 {
 
 p {
   text-align: justify;
+  font-family: Lato;
 }
 
 #section-one {
@@ -132,15 +143,16 @@ p {
 
 .limit-text {
   margin-top: 2em;
-  padding: 0.75em 2em;
-  border: 1px solid #004d4d;
+  padding: 0.6em 1.5em;
+  border: 1px solid #003333;
   text-align: center;
   margin: 2em 6em 0em 6em;
-  color: #004d4d;
+  color: #003333;
   font-family: Lato;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1em;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .clearfix:after {
@@ -174,15 +186,6 @@ p {
 #padding2 {
   text-align: center;
   padding: 0.5em 10em 7em 10em;
-}
-
-h3 {
-  text-transform: uppercase;
-  padding-bottom: 1em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 1em;
-  text-align: center;
 }
 
 .image {
@@ -253,13 +256,14 @@ footer {
   text-transform: uppercase;
   padding: 1.15em 4em;
   text-align: center;
-  border: 1px solid #004d4d;
+  border: 1px solid #003333;
   font-weight: 700;
-  color: #004d4d;
+  color: #003333;
   font-size: 0.6em;
   transition: all 1s;
   -webkit-transition: all 1s;
   margin-right: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 #button:hover {
@@ -290,8 +294,8 @@ fieldset {
 }
 
 input {
-  border: 0.125em solid #004d4d;
-  color: #004d4d;
+  border: 0.125em solid #003333;
+  color: #003333;
 }
 
 #one {
@@ -323,8 +327,8 @@ input {
 
 #five {
   padding: 0.75em;
-  border: 0.125em solid #004d4d;
-  color: #004d4d;
+  border: 0.125em solid #003333;
+  color: #003333;
   text-align: center;
   width: 99.6%;
   transition: all 1s;
@@ -350,7 +354,7 @@ input {
 }
 
 #signed-by {
-  border-top: 0.063em solid #004d4d;
+  border-top: 0.063em solid #003333;
   margin-top: 3.125em;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
